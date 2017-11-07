@@ -1,0 +1,18 @@
+AllCops:
+  TargetRubyVersion: 2.4
+Rails:
+  Enabled: true
+Metrics/LineLength:
+  Max: 120
+
+# Blocks are used to structure tests and are part of the shoulda dsl.
+# The standard BlockLength limits are too stringent for this purpose.
+# Block DSL is also used in routes
+Metrics/BlockLength:
+  Exclude:
+    - 'test/**/*'
+    - 'spec/**/*'
+    - 'config/routes.rb'
+
+Style/IndentArray:
+  EnforcedStyle: consistent
