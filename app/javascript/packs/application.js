@@ -7,4 +7,17 @@
 // To reference this file, add <%= javascript_pack_tag 'application' %> to the appropriate
 // layout file, like app/views/layouts/application.html.erb
 
-console.log('Hello World from Webpacker')
+import Vue from 'vue'
+import BootstrapVue from 'bootstrap-vue'
+// VueRouter helps determine which page to render based on the accessed route,
+// allowing us to easily write SPAs
+import VueRouter from 'vue-router';
+
+Vue.use(BootstrapVue)
+Vue.use(VueRouter)
+
+import App from '../app.vue'
+
+document.addEventListener('DOMContentLoaded', () => {
+  const app = new Vue(App).$mount('#vue-application-container')
+})

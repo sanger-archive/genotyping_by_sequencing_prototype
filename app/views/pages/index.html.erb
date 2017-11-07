@@ -1,0 +1,21 @@
+<div id="vue-application-container">
+  <div id="vue-application-placeholder">
+    <p>Please wait...</p>
+    <p class="details">The prototype is loading, this should only take a moment</p>
+    <p id ="problem-placeholder" class="details error"></p>
+    <noscript>
+      <p class="details error">
+        It looks as though javascript is disabled. The prototype requires javascript to function.
+      </p>
+    </noscript>
+    <script>
+     (function() {
+        var warning_box = document.getElementById('problem-placeholder');
+        // A simple script that will add a warning if our app fails to load
+        setTimeout(function(){
+          warning_box.innerHTML = "Still here? Looks like there might be a problem loading the prototype."
+        }, 5000);
+      })();
+    </script>
+  </div>
+</div>
