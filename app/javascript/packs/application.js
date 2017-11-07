@@ -9,15 +9,16 @@
 
 import Vue from 'vue'
 import BootstrapVue from 'bootstrap-vue'
-// VueRouter helps determine which page to render based on the accessed route,
-// allowing us to easily write SPAs
-import VueRouter from 'vue-router';
+import App from '../app'
+import router from '../router'
 
 Vue.use(BootstrapVue)
-Vue.use(VueRouter)
 
-import App from '../app.vue'
-
+/* eslint-disable no-new */
 document.addEventListener('DOMContentLoaded', () => {
-  const app = new Vue(App).$mount('#vue-application-container')
+  new Vue({
+    el: '#vue-application-container',
+    router,
+    render: h => h(App)
+  })
 })
