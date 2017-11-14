@@ -6,12 +6,16 @@
     "bootstrap": "4.0.0-beta.2",
     "bootstrap-vue": "^1.0.0",
     "coffeescript": "1.12.7",
+    "eslint-plugin-jasmine": "^2.9.1",
     "vue": "^2.5.3",
     "vue-loader": "^13.4.0",
     "vue-router": "^3.0.1",
     "vue-template-compiler": "^2.5.3"
   },
   "devDependencies": {
+    "babel-eslint": "^8.0.2",
+    "eslint": "^4.10.0",
+    "eslint-plugin-vue": "^3.13.1",
     "jasmine-core": "^2.8.0",
     "karma": "^1.7.1",
     "karma-cli": "^1.0.1",

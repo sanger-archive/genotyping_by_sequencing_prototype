@@ -9,9 +9,12 @@
 
 import Vue from 'vue'
 import BootstrapVue from 'bootstrap-vue'
+import 'bootstrap/dist/css/bootstrap.css'
+import 'bootstrap-vue/dist/bootstrap-vue.css'
 import App from '../app'
 import router from '../router'
 
+Vue.config.devtools = true
 Vue.use(BootstrapVue)
 
 /* eslint-disable no-new */

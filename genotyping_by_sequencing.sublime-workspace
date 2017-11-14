@@ -4,6 +4,38 @@
 		"selected_items":
 		[
 			[
+				"new",
+				"newEntryPlate"
+			],
+			[
+				"n",
+				"newEntry"
+			],
+			[
+				"scanned",
+				"scannedEntries"
+			],
+			[
+				"e",
+				"expectedBedCount"
+			],
+			[
+				"sc",
+				"scannedBedCount"
+			],
+			[
+				"varia",
+				"variant_maps"
+			],
+			[
+				"sta",
+				"states"
+			],
+			[
+				"st",
+				"states"
+			],
+			[
 				"plate",
 				"plate_creator"
 			],
@@ -284,10 +316,6 @@
 				"border-spacing"
 			],
 			[
-				"n",
-				"none"
-			],
-			[
 				"list-",
 				"list-style"
 			],
@@ -424,10 +452,22 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 392.0,
-		"last_filter": "pack",
+		"height": 357.0,
+		"last_filter": "pa",
 		"selected_items":
 		[
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"pastry",
+				"Text Pastry: From 0 To X"
+			],
+			[
+				"pastr",
+				"Text Pastry: From 1 To X"
+			],
 			[
 				"pack",
 				"Package Control: List Packages"
@@ -449,7 +489,7 @@
 				"Snippet: directory()"
 			]
 		],
-		"width": 593.0
+		"width": 558.0
 	},
 	"console":
 	{
@@ -476,6 +516,30 @@
 	},
 	"file_history":
 	[
+		"/Users/jg16/projects/james/genotyping_by_sequencing_prototype/app/javascript/app.vue",
+		"/Users/jg16/projects/james/genotyping_by_sequencing_prototype/package.json",
+		"/Users/jg16/projects/james/genotyping_by_sequencing_prototype/app/javascript/_test_/testHelper.js",
+		"/Users/jg16/projects/james/genotyping_by_sequencing_prototype/app/javascript/_test_/components/Logo.spec.js",
+		"/Users/jg16/projects/james/genotyping_by_sequencing_prototype/.eslintignore",
+		"/Users/jg16/projects/james/genotyping_by_sequencing_prototype/Gemfile",
+		"/Users/jg16/projects/james/genotyping_by_sequencing_prototype/app/assets/javascripts/application.js",
+		"/Users/jg16/projects/james/genotyping_by_sequencing_prototype/app/javascript/_test_/.eslintrc.js",
+		"/Users/jg16/projects/james/genotyping_by_sequencing_prototype/.eslintrc.js",
+		"/Users/jg16/projects/james/genotyping_by_sequencing_prototype/app/javascript/components/steps/pcr.vue",
+		"/Users/jg16/projects/james/genotyping_by_sequencing_prototype/app/javascript/shared/plates.js",
+		"/Users/jg16/projects/james/genotyping_by_sequencing_prototype/app/javascript/pages/Stage.vue",
+		"/Users/jg16/projects/james/genotyping_by_sequencing_prototype/app/javascript/pages/NotFound.vue",
+		"/Users/jg16/projects/james/genotyping_by_sequencing_prototype/app/javascript/pages/Inbox.vue",
+		"/Users/jg16/projects/james/genotyping_by_sequencing_prototype/app/javascript/pages/Root.vue",
+		"/Users/jg16/projects/james/genotyping_by_sequencing_prototype/app/javascript/_test_/components/Hello.spec.js",
+		"/Users/jg16/projects/james/genotyping_by_sequencing_prototype/app/views/layouts/application.html.erb",
+		"/Users/jg16/projects/james/genotyping_by_sequencing_prototype/app/javascript/components/NavigationMenu.vue",
+		"/Users/jg16/projects/james/genotyping_by_sequencing_prototype/app/javascript/packs/application.js",
+		"/Users/jg16/projects/james/genotyping_by_sequencing_prototype/genotyping_by_sequencing.sublime-project",
+		"/Users/jg16/projects/james/genotyping_by_sequencing_prototype/node_modules/@rails/webpacker/package/config.js",
+		"/Users/jg16/projects/james/genotyping_by_sequencing_prototype/config/webpack/test.js",
+		"/Users/jg16/projects/james/genotyping_by_sequencing_prototype/config/webpacker.yml",
+		"/Users/jg16/projects/james/genotyping_by_sequencing_prototype/karma.conf.js",
 		"/Users/jg16/projects/james/genotyping_by_sequencing_prototype/app/javascript/_test_/components/example.js",
 		"/Users/jg16/projects/james/genotyping_by_sequencing_prototype/app/assets/javascripts/jasmine_examples/Player.js",
 		"/Users/jg16/projects/james/genotyping_by_sequencing_prototype/spec/javascripts/components/HelloSpec.js",
@@ -579,35 +643,11 @@
 		"/Users/jg16/projects/james/sequencescape_brainstorm/app/javascript/work_order_collection_creator/components/work_order_types_selector.vue",
 		"/Users/jg16/projects/james/sequencescape_brainstorm/app/views/work_order_collections/_form.html.erb",
 		"/Users/jg16/projects/james/sequencescape_brainstorm/app/views/work_order_collections/new.html.erb",
-		"/Users/jg16/projects/james/sequencescape_brainstorm/app/views/work_order_collections/show.html.erb",
-		"/Users/jg16/projects/james/sequencescape_brainstorm/app/models/pulldown/requests.rb",
-		"/Users/jg16/projects/james/sequencescape_brainstorm/config/webpack/handsontable-fixes.js",
-		"/Users/jg16/projects/james/sequencescape_brainstorm/app/models/attributable.rb",
-		"/Users/jg16/projects/james/sequencescape_brainstorm/app/models/submission_template.rb",
-		"/Users/jg16/projects/james/sequencescape_brainstorm/app/models/request_type.rb",
-		"/Users/jg16/projects/james/sequencescape_brainstorm/config/initializers/work_orders.rb",
-		"/Users/jg16/projects/james/sequencescape_brainstorm/spec/lib/work_orders/work_order_types_list_spec.rb",
-		"/Users/jg16/projects/james/sequencescape_brainstorm/spec/lib/work_orders/builders/simple_builder_spec.rb",
-		"/Users/jg16/projects/james/sequencescape_brainstorm/spec/lib/work_orders/builders/null_builder_spec.rb",
-		"/Users/jg16/projects/james/sequencescape_brainstorm/spec/lib/work_orders/builders/legacy_mx_builder_spec.rb",
-		"/Users/jg16/projects/james/sequencescape_brainstorm/config/application.rb",
-		"/Users/jg16/projects/james/sequencescape_brainstorm/Gemfile",
-		"/Users/jg16/projects/james/sequencescape_brainstorm/app/work_orders/work_orders.rb",
-		"/Users/jg16/projects/james/sequencescape_brainstorm/spec/features/sample_manifests/uploader_for_manifests_with_tag_sequences_spec.rb",
-		"/Users/jg16/projects/james/sequencescape_brainstorm/app/models/request/traction/grid_ion.rb",
-		"/Users/jg16/projects/james/sequencescape_brainstorm/test/factories/request_type_factories.rb",
-		"/Users/jg16/projects/james/sequencescape_brainstorm/app/models/order.rb",
-		"/Users/jg16/projects/james/sequencescape_brainstorm/app/controllers/assets_controller.rb",
-		"/Users/jg16/projects/james/sequencescape_brainstorm/app/views/assets/new_request.html.erb",
-		"/Users/jg16/projects/james/sequencescape_brainstorm/test/unit/request_type_test.rb",
-		"/Users/jg16/projects/james/sequencescape_brainstorm/app/models/transfer_request.rb",
-		"/Users/jg16/projects/james/sequencescape_brainstorm/config/environment.rb",
-		"/Users/jg16/projects/james/sequencescape_brainstorm/db/migrate/20171013131525_add_project_id_study_id_asset_id_to_work_orders.rb",
-		"/Users/jg16/projects/james/sequencescape_brainstorm/db/migrate/20171013134112_make_asset_id_study_id_project_id_required.rb"
+		"/Users/jg16/projects/james/sequencescape_brainstorm/app/views/work_order_collections/show.html.erb"
 	],
 	"find":
 	{
-		"height": 22.0
+		"height": 48.0
 	},
 	"find_in_files":
 	{
@@ -622,6 +662,31 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"1234",
+			"button",
+			"v-on",
+			"v-for",
+			"Step",
+			"Logo",
+			"components",
+			"NavigationMenu",
+			"components",
+			"passed",
+			"secondary",
+			": ",
+			"filter:",
+			"filter: true,",
+			"components",
+			"Stage",
+			"Inbox",
+			"logo",
+			"selected_state",
+			"tab_change",
+			"secondary",
+			"em",
+			"Hello",
+			"nav-bar",
+			"dev_server",
 			"preprocessors",
 			"MyComponent",
 			"() =>"
@@ -1238,7 +1303,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 391.0,
+	"side_bar_width": 199.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
